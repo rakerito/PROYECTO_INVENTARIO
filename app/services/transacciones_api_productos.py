@@ -72,4 +72,4 @@ def delete_product(product_id:str):
     except requests.exceptions.RequestException as e:
         raise ValueError("Error de conexión", None, str(e))
 
-print(list_products())
+# print(list_products())
